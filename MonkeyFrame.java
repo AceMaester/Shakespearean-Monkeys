@@ -83,8 +83,9 @@ public class MonkeyFrame extends JFrame implements ActionListener
 		setContentPane(contentPane);
 		
 		JLabel lblNewLabel = new JLabel("");
-		lblNewLabel.setIcon(new ImageIcon("C:\\Users\\Admin\\workspace\\Assignment 4.1\\src\\george bush monkey.jpg"));
-		
+		//lblNewLabel.setIcon(new ImageIcon("C:\\Users\\Admin\\workspace\\Assignment 4.1\\src\\george bush monkey.jpg"));
+		lblNewLabel.setIcon(new ImageIcon(this.getClass().getResource("george bush monk.jpg")));
+				
 		generatedTextArea = new JTextArea();
 		generatedTextArea.setBorder(new BevelBorder(BevelBorder.LOWERED, null, null, null, null));
 		targetTextArea = new JTextArea();
