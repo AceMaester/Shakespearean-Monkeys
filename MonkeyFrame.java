@@ -1,5 +1,5 @@
 /*
- * Shakespearean Monkey Gui by aett072
+ * Shakespearean Monkey Gui by aett072.
  * 
  * Main contents:
  * 1) Implementation of MonkeyFrame with swing components
